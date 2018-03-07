@@ -25,7 +25,7 @@ def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
   else
-    first_person = "#{array.first}" 
-    puts ""
-  end 
+    first_person = "#{array.first}"
+    puts "Currently serving #{first_person}."
+  end
 end
