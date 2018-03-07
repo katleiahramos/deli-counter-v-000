@@ -5,7 +5,7 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    line_statement = "the line is currently:"
+    line_statement = "The line is currently:"
     place = 1
     array. each do |name|
       line_statement << " #{place}. #{name}"
