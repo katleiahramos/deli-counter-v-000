@@ -20,3 +20,6 @@ def take_a_number(array, name)
   place = array.length
   puts "Welcome, #{name}. You are number #{place} in line."
 end
+
+def now_serving
+end 
