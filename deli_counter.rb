@@ -17,4 +17,4 @@ def line(katz_deli)
 
     return "the line is currently:"
 end
-=end 
+=end
