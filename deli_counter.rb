@@ -11,7 +11,7 @@ def line(array)
       line_statement << "#{place}. #{name}"
       place += 1
     puts line_statement
-  end 
+    end 
   end
 end
 
