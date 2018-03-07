@@ -10,7 +10,7 @@ def line(array)
     array. each do |name|
       line_statement << "#{place}. #{name}"
       place += 1
-    end 
+    end
     puts line_statement
   end
 end
