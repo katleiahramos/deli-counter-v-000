@@ -4,7 +4,7 @@ require 'pry'
 def line(array)
   if array.empty?
     return "The line is currently empty."
-    binding.pry 
+    binding.pry
   else
     return "the line is currently:"
   end
