@@ -1,8 +1,8 @@
 # Write your code here.
 require 'pry'
 
-def line(katz_deli)
-  if katz_deli.empty?
+def line(array)
+  if array.empty?
     return "The line is currently empty."
   else
     return "the line is currently:"
