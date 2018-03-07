@@ -3,10 +3,10 @@ require 'pry'
 
 def line(katz_deli)
   if katz_deli.empty?
-    return nil
+    return "The line is currently empty."
   else
     return "the line is currently:"
-  end 
+  end
 end
 
 def take_a_number(array, name)
