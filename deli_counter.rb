@@ -9,7 +9,7 @@ def take_a_number(array, name)
 end
 
 
-=begin 
+=begin
 def line(katz_deli)
   if katz_deli.empty?
     return nil
