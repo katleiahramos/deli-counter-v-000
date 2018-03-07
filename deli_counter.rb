@@ -1,10 +1,12 @@
 # Write your code here.
 require 'pry'
+
 def take_a_number(array, name)
   array.push(name)
   place = array.legnth
   puts "Welcome, #{name}. You are number #{place} in line."
-  
+  binding.pry
+
 end
 
 
