@@ -9,6 +9,7 @@ def line(array)
     place = 1
     array. each do |name|
       line_statement << "#{place}. #{name}"
+      place += 1 
     return
   end
 end
