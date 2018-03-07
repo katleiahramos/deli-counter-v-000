@@ -3,7 +3,7 @@ require 'pry'
 
 def take_a_number(array, name)
   array.push(name)
-  place = array.legnth
+  place = array.length
   puts "Welcome, #{name}. You are number #{place} in line."
   binding.pry
 end
