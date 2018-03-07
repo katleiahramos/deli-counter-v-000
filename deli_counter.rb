@@ -5,8 +5,8 @@ def line(katz_deli)
   if katz_deli.empty?
     return nil
   else
-
     return "the line is currently:"
+  end 
 end
 
 def take_a_number(array, name)
@@ -14,6 +14,3 @@ def take_a_number(array, name)
   place = array.length
   puts "Welcome, #{name}. You are number #{place} in line."
 end
-
-
-
