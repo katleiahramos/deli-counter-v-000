@@ -3,6 +3,7 @@ require 'pry'
 
 def line(array)
   if array.empty?
+    binding.pry 
     return "The line is currently empty."
   else
     return "the line is currently:"
