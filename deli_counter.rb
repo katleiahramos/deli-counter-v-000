@@ -8,7 +8,7 @@ def line(array)
     line_statement = "the line is currently:"
     place = 1
     array. each do |name|
-      line_statement << "#{place}. #{name}"
+      line_statement << " #{place}. #{name}"
       place += 1
     end
     puts line_statement
